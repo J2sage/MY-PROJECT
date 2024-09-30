@@ -1,0 +1,149 @@
+
+body{
+  font-family: roboto;
+  padding-top: 48px;
+  margin: 0;
+}
+nav{
+  background-color: rgb(249, 251, 255);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 30;
+  z-index: 10;
+  border: 1px solid rgb(10, 35, 81);
+}
+.link{
+  display: flex;
+  justify-content: space-around;
+}
+nav li{
+  list-style: none;
+}
+nav button{
+  border: none;
+  color: rgb(10, 35, 81);
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 700;
+  transition: background-color 0.5s, color 0.5s;
+
+}
+nav button:hover{
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background-color: rgb(10, 35, 81);
+}
+.intro{
+  position: relative;
+  background-image: url(/img/shecode.jfif);
+  width: 100%;
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.intro-background{
+  position: absolute;
+  right: 30%;
+  bottom: 35%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(249, 251, 255);
+  color: rgb(10, 35, 81);
+  padding: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  line-height: 30px;
+  font-weight: 500;
+}
+.skills-box{
+  background-color: rgb(249, 251, 255);
+  padding: 20px;
+  font-size: 17px;
+  text-align: center;
+}
+.skills-box li{
+  list-style: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(249, 251, 255);
+  margin-bottom: 10px;
+}
+.skills-box ul{
+  border: 3px solid rgb(10, 35, 81);
+  border-radius: 20px;
+  margin-left: 38%;
+  margin-right: 38%;
+  padding: 20px 0;
+  background-color: rgb(10, 35, 81);
+}
+.projectsContainer{
+  background-color: rgb(10, 35, 81);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 40px;
+}
+.eduContainer{
+  background-color: rgb(249, 251, 255);
+  color: rgb(10, 35, 81);
+  padding: 30px;
+  text-align: center;
+  font-size: 17px;
+}
+.eduContainer li{
+  list-style: none;
+  margin-bottom: 15px;
+}
+footer{
+  background-color: rgb(10, 35, 81);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 30px;
+  font-size: 17px;
+  padding-bottom: 60px;
+}
+.Contact-link{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  /* list-style: none; */
+  row-gap: 5px;
+
+}
+.Contact-link li{
+  margin-bottom: 0px;
+}
+.Contact-link a{
+  color: rgb(241, 241, 241);
+  text-decoration: none;
+}
+.feedback form{
+  display: grid;
+  grid-template-rows: 50px 1fr 30px;
+  row-gap: 30px;
+  align-items: center;
+  justify-content: center;
+
+}
+.comment{
+  font-size: 15px;
+  padding: 3px;
+}
+.submitbtn{
+  padding: 10px;
+  font-size: 16px;
+  color: rgb(10, 35, 81);
+  background-color: rgb(249, 251, 255);
+  border-radius: 10px;
+}

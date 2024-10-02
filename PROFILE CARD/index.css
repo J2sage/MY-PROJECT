@@ -1,0 +1,71 @@
+body{
+  background-color: rgb(255, 255, 173);
+  font-family: Roboto, Arial;
+  margin-top: 80px;
+}
+.container{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 30px;
+  padding: 20px 10px;
+  margin-left: 25%;
+  margin-right: 25%;
+  row-gap: 10px;
+}
+.picture-box{
+  width: 75px;
+  height: 75px;
+  margin-left: 30px;
+}
+.Profile-picture{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 120px;
+}
+.Profile{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.socialApp{
+  display: flex;
+  justify-content: space-between;
+}
+.Facebook{
+  width: 40px;
+}
+.LinkedIn{
+  width: 40px;
+}
+.Twitter{
+  width: 65px;
+}
+.instagram{
+  width: 50px;
+}
+.info{
+  text-align: center;
+  font-size: 13px;
+}
+button{
+  margin: 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+.Fllw{
+  background-color: rgb(227, 36, 68);
+  border: none;
+  color: white;
+  padding: 10px 28px;
+}
+.mssg{
+  padding: 10px 20px;
+  background-color: white;
+  color: rgb(89, 89, 89);
+  border: 1px solid rgb(89, 89, 89);
+}

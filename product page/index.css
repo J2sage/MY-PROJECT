@@ -1,0 +1,112 @@
+body{
+  background-color: rgb(226, 240, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+  align-items: center;
+  height: 40px;
+}
+header a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+header a:hover{
+  color: blue;
+}
+.logo{
+  width: 30px;
+}
+.left-section{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 200px;
+}
+.sageweb{
+  font-size: 15px;
+  text-decoration: none;
+}
+.middle-section{
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+}
+.right-section{
+  width: 200px;
+  display: flex;
+  justify-content: end;
+}
+.strt{
+  background-color: rgb(226, 240, 255);
+  border: 1px solid rgb(0, 145, 255);
+  color: rgb(0, 145, 255);
+  padding: 8px 13px;
+  border-radius: 3px;
+}
+main{
+  margin-top: 80px;
+  display: grid;
+  justify-content: center;
+  align-items: middle;
+}
+.service{
+  font-weight: bold;
+  font-size: 11px;
+}
+.big{
+  font-size: 32px;
+}
+.email{
+  padding: 12px 15px;
+  font-size: 14px;
+  border: none;
+}
+.subBttn{
+  background-color: orangered;
+  color: white;
+  padding: 12px 15px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+.option{
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  column-gap: 100px;
+  row-gap: 20px;
+  justify-content: center;
+}
+.grd1{
+  display: grid;
+  grid-template-columns: 44px 1fr;
+  align-items: top;
+  align-items: center;
+}
+.title{
+  font-weight: 900;
+  font-size: 14px;
+}
+.details{
+  font-size: 13px;
+}
+.grd1 img{
+  width: 40px;
+}
+@media (max-width: 800px){
+  .middle-section{
+    display: none;
+  }
+  .option{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+  }
+}

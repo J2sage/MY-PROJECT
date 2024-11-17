@@ -12,76 +12,44 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <nav class="navigation">
-    <ul class="link">
-      <li><button>Home</button></li>
-      <li><button>About</button></li>
-      <li><button>Projects</button></li>
-      <li><button>Skills</button></li>
-      <li><button>Contact</button></li>
-    </ul>
-  </nav>
+  <header>
+    <div class="left-section">
+      <a href="#home">
+        <img src="./img/sageweb.png" class="logo" alt="sageweb logo">
+      </a>
+      <a href="#home" class="sageweb">SAGEWEB</a>
+    </div>
+
+    <div class="middle-section">
+      <a href="#">HOME</a>
+      <a href="#about_me">ABOUT</a>
+      <a href="#">PROJECTS</a>
+      <a href="#">SKILLS</a>
+      <a href="">CONTACT</a>
+    </div>
+
+    <div class="right-section">
+      <button class="strt">Get Started</button>
+    </div>
+  </header>
+
   <main class="container">
     <div class="intro">
-      <div class="intro-background">
-        <h1>I am Jibril</h1>
-        <p>-- An aspiring Progrommer --</p>
-        <p class="myself">
-          My Name is Jibril(SAGE). I am an Aspiring Full Stack Web Developer. I am currenntly a     student of University of Ilorin Studying Computer Science. I am also a graphic designer.
-          I am done with HTML/CSS and currenntly learning JavaScript.
-        </p>
-      </div>
+      <p class="grt">Hello!!!</p>
+      <p class="name">I am Balogun Jibril <br> An Aspiring Fullstack Web Developer</p>
     </div>
-    <div class="skills-box">
-      <h1>My Skills</h1>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>& Still Learning</li>
-      </ul>
-    </div>
-    <div class="projectsContainer">
-      <h2>My Projects</h2>
-      <p>I am building my first website which is my personal website/portfolio</p>
-      <div>
-        <img src="" alt="001">
-        <img src="" alt="002">
-        <img src="" alt="003">
-      </div>
-    </div>
-    <div class="eduContainer">
-      <h2>Educational Background</h2>
-      <ul>
-        <li>Qiblah Mind --- Primary School <br> (2007 -- 2015)</li>
-        <li>Vetland Grammar School --- Secondary School <br> (2015-2021)</li>
-        <li>University of Ilorin --- B.sc Information Technology <br> (2022-2023)</li>
-        <li>University of Ilorin --- B.sc Computer Science <br> (2023-2027) Ongoing</li>
-        <li>FreecodeCamp --- HTML/CSS/JavaScript</li>
-        <li>
-          Self-learning (SuperSimpleDev youtube channel) --- HTML/CSS/JavaScript/REACT/GIT & so on
-        </li>
-      </ul>
-    </div>
-    
-  </main>
-  <footer class="Contact">
-    <h1>Contact me:</h1>
-    <ul class="Contact-link">
-      <li class="email">Email: <a href=""> jibrilbalogun15@gmail.com</a></li>
-      <li class="number">Phone: <a href="">+234 706 114 0462</a></li>
-      <li class="location">Address: <a href="">Oke-odo, Ilorin, Kwara State, Nigeria</a>.</li>
-      <li class="insta">Instagram: <a href="">J2_Sage</a></li>
-      <li class="tweet">Twitter: <a href="">J2_Sage</a></li>
-      <li></li>
-    </ul>
-    <section class="feedback">
-      <form action="">
-        <label for="feedback" class="feedback">Write Your comment on my website</label>
-        <textarea name="feedback" class="comment" placeholder="comment....." cols="50" rows="10"></textarea>
-        <input type="submit" class="submitbtn">
-      </form>
+
+    <section class="about" id="about_me" aria-labelledby="about_me">
+        <div class="meImage">
+          <figure>
+            <img src="" class="me" alt="Jibril">
+            <figcaption>me while coding</figcaption>
+          </figure>
+        </div>
+        <div class="info">
+          <p>Name: Balogun Jibril Opeyemi</p>
+        </div>
     </section>
-  </footer>
+  </main>
 </body>
 </html>

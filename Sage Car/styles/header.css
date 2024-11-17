@@ -1,0 +1,51 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: azure;
+  border-bottom: 1px solid rgb(219, 219, 219);
+  height: 40px;
+  z-index: 100;
+}
+.left-section{
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+.middle-section{
+  display: flex;
+  width: 650px;
+  justify-content: space-between;
+  align-items: center;
+}
+.middle-section a{
+  text-decoration: none;
+  color: rgb(64, 64, 64);
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.middle-section a:hover{
+  color: rgb(2, 102, 196);
+}
+.middle-section a:active{
+  color: rgb(2, 102, 196);
+}
+
+.right-section{
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+.service-bttn{
+  background-color: rgb(2, 102, 196);
+  border: none;
+  padding: 7px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}

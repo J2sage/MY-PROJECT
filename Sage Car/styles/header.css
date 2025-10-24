@@ -6,7 +6,7 @@ header{
   top: 0;
   left: 0;
   right: 0;
-  background-color: azure;
+  background-color: rgb(244, 249, 249);
   border-bottom: 1px solid rgb(219, 219, 219);
   height: 40px;
   z-index: 100;

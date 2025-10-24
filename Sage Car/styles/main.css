@@ -39,6 +39,37 @@ main{
   margin-bottom: 20px;
 }
 .services{
-  margin-top: 90px;
+  margin-top: 150px;
   display: flex;
+  justify-content: center;
+}
+.info{
+  margin-right: 300px;
+}
+.services-head{
+  font-weight: bold;
+  font-size: 16px;
+}
+.services-info{
+  width: 360px;
+  color: grey;
+  font-size: 11px;
+}
+.box{
+  display: grid;
+  grid-template-columns: 130px 130px 130px;
+  align-items: center;
+  column-gap: 20px;
+}
+.car{
+  border: 2px solid rgb(2, 102, 196);
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 10px;
+}
+.car-head{
+  font-weight: bold;
+}
+.car-info{
+  color: gray;
 }

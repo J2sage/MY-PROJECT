@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(255, 245, 233);
+  font-family: cursive;
+}
+.title{
+  text-align: center;
+  margin: 15px auto;
+  font-size: 25px;
+  color: rgb(7, 7, 73);
+}
+.first_paragraph{
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 15px;
+  color: rgb(7, 7, 73);
+}
+.container{
+  width: 60%;
+  margin: auto;
+  margin-bottom: 30px;
+  max-width: 500px;
+  background-color: bisque;
+  padding: 20px;
+  border-radius: 17px;
+  box-shadow: 3px 3px 5px rgb(32, 192, 160);
+}
+form label{
+  display: block;
+  color: rgb(7, 7, 73);
+  font-size: 13px;
+  margin: 10px auto;
+}
+.name,
+.email,
+.age{
+  color: grey;
+  box-shadow: 2px 2px 1px rgb(32, 192, 160);
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 10px;
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.visit{
+  color: grey;
+  box-shadow: 2px 2px 1px rgb(32, 192, 160);
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 10px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.one, 
+.two, 
+.three,
+.four{
+  margin: 7px auto;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.check1, 
+.check2,
+.check3, 
+.check4,
+.check5{
+  margin: 7px auto;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.comment{
+  color: grey;
+  box-shadow: 2px 2px 1px rgb(32, 192, 160);
+  border: none;
+  border-radius: 15px;
+  padding: 7px 10px;
+  font-size: 9px;
+  width: 94%;
+  height: 9vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.bttn{
+  margin: auto 39%;
+  width: 20%;
+  padding: 10px;
+  background-color: rgb(243, 78, 135);
+  color: rgb(7, 7, 73);
+  border: none;
+  border-radius: 12px;
+  box-shadow: 2px 2px 1px rgb(32, 192, 160);
+  font-size: 10px;
+  font-weight: bold;
+}

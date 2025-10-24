@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library Survey</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header class="title">Library Survey</header>
+  <p class="first_paragraph">Help us improve your local library</p>
+
+  <form class="container">
+    <label for="name">Name</label>
+    <input type="text" class="name" id="name" placeholder="Enter your name">
+
+    <label for="email">Email</label>
+    <input type="email" class="email" id="email" placeholder="Enter your email">
+
+    <label for="age">Age</label>
+    <input type="text" class="age" id="age" placeholder="Age">
+
+    <label for="visit">How often do you visit the library?</label>
+    <select name="visit" class="visit" id="visit">
+      <option value="1">Select</option>
+      <option value="2">often</option>
+      <option value="3">once in a blue moon</option>
+      <option value="4">seldom</option>
+    </select>
+
+    <label for="question5">When you visit, are you usually able to find what you are lookimg for?</label>
+    <input type="radio" name="option1" class="one" id="one">Always <br>
+    <input type="radio" name="option1" class="two" id="two">Sometimes <br>
+    <input type="radio" name="option1" class="three" id="three">Rarely <br>
+    <input type="radio" name="option1" class="four" id="four">Never <br>
+
+
+    <label for="question6">Do you usually find the books and other materials that you are looking for in the library?</label>
+    <input type="radio" name="option2" class="one" id="one">Always <br>
+    <input type="radio" name="option2" class="two" id="two">Sometimes <br>
+    <input type="radio" name="option2" class="three" id="three">Rarely <br>
+    <input type="radio" name="option2" class="four" id="four">Never <br>
+
+    <label>Please check all of the reasons you visit the library; (Check all that apply)</label>
+    <input type="checkbox" name="check1" class="check1" id="check1">to check out / return books <br>
+    <input type="checkbox" name="check2" class="check2" id="check2">to use the computers <br>
+    <input type="checkbox" name="check3" class="check3" id="check3">to get a book recommendation <br> 
+    <input type="checkbox" name="check4" class="check4" id="check4">to do research / find information <br>
+    <input type="checkbox" name="check5" class="check5" id="check5">to take a class <br>
+
+    <label for="comment">Anything you would like to see improve?</label>
+    <textarea name="comment" class="comment" id="comment" placeholder="Enter your comment here......"></textarea>
+
+    <button class="bttn">Submit</button>
+  </form>
+
+  
+</body>
+</html>
